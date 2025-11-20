@@ -12,10 +12,10 @@ const Contact = () => {
         <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto animate-slide-up">
           I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out!
         </p>
-        
+
         <Card className="p-8 gradient-card border-border animate-slide-up">
           <div className="grid md:grid-cols-2 gap-6">
-            <a 
+            <a
               href="mailto:contact@example.com"
               className="flex items-center gap-4 p-4 rounded-lg bg-background/50 hover:bg-primary/20 transition-colors group"
             >
@@ -24,11 +24,11 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-semibold">Email</p>
-                <p className="text-sm text-muted-foreground">contact@example.com</p>
+                <p className="text-sm text-muted-foreground">theakporehaodafe@gmail.com</p>
               </div>
             </a>
-            
-            <a 
+
+            <a
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -42,8 +42,8 @@ const Contact = () => {
                 <p className="text-sm text-muted-foreground">Connect with me</p>
               </div>
             </a>
-            
-            <a 
+
+            <a
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -57,8 +57,8 @@ const Contact = () => {
                 <p className="text-sm text-muted-foreground">View my projects</p>
               </div>
             </a>
-            
-            <a 
+
+            <a
               href="#"
               className="flex items-center gap-4 p-4 rounded-lg bg-background/50 hover:bg-primary/20 transition-colors group"
             >
@@ -71,7 +71,7 @@ const Contact = () => {
               </div>
             </a>
           </div>
-          
+
           <div className="mt-8 text-center">
             <Button size="lg" asChild>
               <a href="mailto:contact@example.com">
